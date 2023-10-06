@@ -2,16 +2,20 @@ import Link from 'next/link';
 import React from 'react';
 
 const HeroBanner = () => {
+    function circleClassName(size) {
+        return `circle circle_size_${size} circle__${size}_animated`;
+    }
+
     return (
         <>
      <section className="banner-area fix p-relative">
-         <div className="banner-bg"   style={{backgroundImage: `url(/assets/img/banner/banner-01.jpg)`}}>
+         <div className="banner-bg">
             <div className="container">
                <div className="row">
                   <div className="col-xl-6 col-lg-6 col-md-8">
                      <div className="hero-content">
                         <span>Learn New Skills & Popular Courses</span>
-                        <h2 className="hero-title mb-35">For Every Student, Every <i>Classroom</i>.</h2>
+                        <h2 className="hero-title mb-35 text-black">For Every Student, Every <i>Classroom</i>.</h2>
                         <p>Dramatically supply transparent deliverables before backward<br />comp internal or "organic"
                            sources. Competently leverage other.</p>
                         <div className="tp-banner-btn">
@@ -33,6 +37,12 @@ const HeroBanner = () => {
                   </div>
                </div>
             </div>
+         </div>
+         <div className='background'>
+             <div className={circleClassName('s')} />
+             <div className={circleClassName('l')} />
+             <div className={circleClassName('m')} />
+             <div className={circleClassName('xs')} />
          </div>
       </section>
         </>

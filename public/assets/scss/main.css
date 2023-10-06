@@ -44642,6 +44642,9 @@ i[class*=" fi-ss-"]:before, i[class^=fi-ss-]:before, span[class*=fi-ss-]:before,
   --tp-theme-2: #F7F8F9;
   --tp-border-1: #fff;
   --tp-border-2: #245D51;
+  --tp-text-violet: #d9d9f1;
+  --tp-animation-light-green: #d4eee4;
+  --tp-animation-light-yellow: #f7f5ef;
   /**
   @font weight declaration
   */
@@ -44710,7 +44713,7 @@ i[class*=" fi-ss-"]:before, i[class^=fi-ss-]:before, span[class*=fi-ss-]:before,
 }
 
 /*---------------------------------
-    typography css start 
+    typography css start
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
@@ -44890,7 +44893,7 @@ input[type=color] {
 }
 
 /*---------------------------------
-    common classes css start 
+    common classes css start
 ---------------------------------*/
 img {
   max-width: 100%;
@@ -44958,7 +44961,7 @@ img {
 }
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 .body-overlay {
   background-color: rgba(var(--tp-common-black), 0.5);

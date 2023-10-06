@@ -1,13 +1,13 @@
-	
+
 
     // bg color
     @mixin bg-color($color, $opacity) {
         background: rgba($color, $opacity);
     }
-    
+
 
     @mixin tp-afbf($style: 'default', $content: '', $top: 50%, $left: 0, $right: auto, $x:0%, $y:-50%, $height: 12px, $width:1px, $bg-color: var(--tp-common-black)) {
-        
+
         @if ($style == 'center') {
             $top:50%;
             $left:50%;
@@ -31,7 +31,7 @@
             $y:0%;
             $width:100%;
             $height:100%;
-            
+
             position: absolute;
             content: $content;
             top: $top;
@@ -55,7 +55,7 @@
             background-color: $bg-color;
         }
     }
-    
+
 
     // placeholder input
     @mixin tp-placeholder {
@@ -73,7 +73,7 @@
         }
     }
 
-    // animate 
+    // animate
     @mixin animate($animation, $duration, $repeat, $easing) {
         -webkit-animation: $animation $duration $repeat $easing;
            -moz-animation: $animation $duration $repeat $easing;
@@ -82,7 +82,7 @@
                 animation: $animation $duration $repeat $easing;
     }
 
-    // filter 
+    // filter
     @mixin filter($value) {
         -webkit-filter: $value;
             filter: $value;
@@ -96,11 +96,11 @@
             -o-appearance: $value;
             appearance: $value;
     }
-    
-    // keyframes 
+
+    // keyframes
     @mixin keyframes($name) {
         @-webkit-keyframes #{$name} {
-            @content; 
+            @content;
         }
         @-moz-keyframes #{$name} {
             @content;
@@ -110,16 +110,16 @@
         }
         @keyframes #{$name} {
             @content;
-        } 
+        }
     }
 
-    //backgroud 
+    //backgroud
     @mixin background {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
-      
+
     //transition
     @mixin transition($time) {
         -webkit-transition: all $time ease-out 0s;
@@ -128,7 +128,7 @@
         -o-transition: all $time ease-out 0s;
         transition: all $time ease-out 0s;
     }
-    
+
     // transform
     @mixin transform($transforms) {
         -webkit-transform: $transforms;
@@ -137,7 +137,7 @@
         -o-transform: $transforms;
         transform: $transforms;
     }
-    
+
     //border
     @mixin border-radius($man) {
     -webkit-border-radius: $man;
@@ -146,7 +146,7 @@
     -ms-border-radius: $man;
     border-radius: $man;
     }
-    
+
     // sentence case
     @mixin sentence-case() {
         text-transform: lowercase;
@@ -163,14 +163,13 @@
     display: -webkit-flex;
     display: flex;
     }
-    
+
     // Box shadows
     @mixin box-shadow($shadow) {
     -webkit-box-shadow: $shadow;
-        -moz-box-shadow: $shadow;       
-        -ms-box-shadow: $shadow;       
-        -o-box-shadow: $shadow;       
+        -moz-box-shadow: $shadow;
+        -ms-box-shadow: $shadow;
+        -o-box-shadow: $shadow;
             box-shadow: $shadow;
     }
-    
-    
+

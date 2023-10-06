@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import useScrollToTop from "../../../hooks/scroll-to-top";
 
-const BackToTop = () => {
+const   BackToTop = () => {
   const { stick, onClickHandler } = useScrollToTop();
 
   useEffect(() => {
