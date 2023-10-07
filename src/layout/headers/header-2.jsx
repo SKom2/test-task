@@ -12,7 +12,7 @@ const category_data = [
     {title: "Video Edition"},
     {title: "Logo Design"},
     {title: "Francy Medium"},
-  
+
   ]
 
 const HeaderTwo = () => {
@@ -38,15 +38,15 @@ const {sticky} = useSticky()
                            <nav>
                               <ul>
                                  <li><a href="#"> Categorie <span><i className="arrow_carrot-down"></i></span></a>
-                                    
+
                                  <ul className="sub-menu">
-                                    {category_data.map((item, i) => 
+                                    {category_data.map((item, i) =>
                                     <li key={i}>
                                     <Link href="/course-grid">{item.title}</Link>
                                     </li>
                                     )}
                                  </ul>
-                                 
+
                                  </li>
                               </ul>
                            </nav>
@@ -73,14 +73,14 @@ const {sticky} = useSticky()
          <div className="container">
             <div className="row">
                <div className="col-xxl-9 col-xl-9 col-lg-6 text-start">
-                  <div className="main-menu main-menu-white">
+                  <div className={`${sticky ? "main-menu main-menu-white" : "main-menu"}`}>
                      <nav id="mobile-menu">
                         <NavMenu />
                      </nav>
                   </div>
                </div>
                <div className="col-xxl-3 col-xl-3 col-lg-6 d-flex align-items-center justify-content-end">
-                  <div className="header-meta-green">
+                  <div className={`${sticky ? "header-meta-white header-meta" : "header-meta"}`}>
                      <ul>
                         <li><Link href="/sign-in"><i className="fi fi-rr-user"></i></Link></li>
                         <li><Link href="/cart"><i className="fi fi-rr-shopping-bag"></i></Link></li>
@@ -104,7 +104,7 @@ const {sticky} = useSticky()
                </div>
             </div>
             <div className="col-md-6 col-7 d-flex align-items-center justify-content-end">
-               <div className="header-meta-green text-end">
+               <div className={`${sticky ? "header-meta-white header-meta" : "header-meta"} text-end`}>
                   <ul>
                      <li><Link href="/sign-in"><i className="fi fi-rr-user"></i></Link></li>
                      <li><Link href="/cart"><i className="fi fi-rr-shopping-bag"></i></Link></li>

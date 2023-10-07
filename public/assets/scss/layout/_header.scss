@@ -61,8 +61,8 @@
             & input {
                 width: 200px;
                 height: 50px;
-                background-color: var(--tp-grey-1);
-                border: 1px solid var(--tp-grey-1);
+                background-color: var(--tp-green-1);
+                border: 1px solid var(--tp-theme-1);
                 padding: 0 20px;
                 padding-left: 40px;
                 border-radius: 50px;
@@ -81,8 +81,8 @@
             @include transform(translateY(-50%));
             left: 15px;
             font-size: 20px;
-            color: var(--tp-heading-secondary);
-            background-color: var(--tp-grey-1);
+            color: var(--tp-green-2);
+            background-color: var(--tp-green-1);
         }
 
         &-2 {
@@ -195,7 +195,7 @@
                 }
                 & a {
                     font-size: 14px;
-                    color: var(--tp-common-black);
+                    color: var(--tp-common-violet);
                     display: inline-block;
                     &:hover {
                         color: var(--tp-theme-1);
@@ -243,7 +243,7 @@
                 padding: 12px 28px;
                 font-size: 16px;
                 color: var(--tp-common-white);
-                background: var(--tp-heading-secondary);
+                background: var(--tp-theme-1);
                 border-radius: 5px;
                 @media #{$xl}{
                     padding: 8px 8px;
@@ -307,7 +307,7 @@
                 display: inline-block;
                 font-family: 'Gordita-500';
                 font-size: 16px;
-                color: var(--tp-common-white);
+                color: var(--tp-common-violet);
                 padding: 23px 0;
                 @media #{$xl}{
                     font-size: 15px;
@@ -329,7 +329,7 @@
                         content: '\f107';
                         @include transform(translateY(1px));
                         font-size: 16px;
-                        color: var(--tp-common-white);
+                        color: var(--tp-common-violet);
                         font-family: var(--tp-ff-fontawesome);
                         font-weight: medium;
                         margin-left: 5px;
@@ -369,7 +369,7 @@
                         padding: 10px 25px;
                         font-size: 14px;
                         z-index: 1;
-                        color: var(--tp-common-black);
+                        color: var(--tp-common-violet);
                         width: 100%;
                         &::before {
                             display: none;
@@ -419,9 +419,9 @@
             & a {
                 padding: 35px 0;
                 font-family: 'Gordita-500';
-                color: var(--tp-text-2);
+                color: var(--tp-common-white);
                 &:hover {
-                    color: var(--tp-common-black);
+                    color: var(--tp-green-2);
                 }
                 &::before{
                     top: 68px;
@@ -430,7 +430,7 @@
             &.has-dropdown {
                 & a {
                     &::after {
-                        color: var(--tp-text-2);
+                        color: var(--tp-common-white);
                     }
                 }
             }
@@ -456,9 +456,9 @@
                 background: rgba(255, 255, 255, .1);
                 text-align: center;
                 border-radius: 50px;
-                color: var(--tp-common-white);
+                color: var(--tp-common-violet);
                 &:hover {
-                    background: var(--tp-heading-secondary);
+                    background: var(--tp-green-2);
                 }
             }
         }
@@ -500,7 +500,7 @@
     & ul {
         & li {
             & a {
-                color: var(--tp-border-2);
+                color: var(--tp-common-white);
                 background: rgb(36, 93, 81, .1);
                 &:hover {
                     color: var(--tp-common-white);
@@ -519,7 +519,7 @@ div.main-menu-black {
             & a {
                 color: var(--tp-text-2);
                 &:hover {
-                    color: var(--tp-common-black);
+                    color: var(--tp-common-violet);
                 }
             }
             &.has-dropdown {
@@ -529,8 +529,8 @@ div.main-menu-black {
                     }
                     &:hover {
                         &::after {
-                            color: var(--tp-common-black);
-                        }  
+                            color: var(--tp-common-violet);
+                        }
                     }
                 }
             }
@@ -670,15 +670,15 @@ ul.bili_circle li::before {
     padding-bottom: 10px;
 }
 .header-menu-area.header-sticky{
-    background-color: var(--tp-common-white);
+    background-color: var(--tp-common-violet);
     padding-top: 0;
     padding-bottom: 0;
 }
 .mob-white-sticky.header-sticky{
-    background-color: var(--tp-common-white);
+    background-color: var(--tp-common-violet);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .third-header.header-sticky{
-    background-color: var(--tp-common-white);
+    background-color: var(--tp-common-violet);
 }

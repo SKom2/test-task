@@ -1,30 +1,34 @@
 $colors: (
+    animation: (
+        violet: #d9d9f1,
+        light-green: #f0f9f3,
+        light-yellow: #f7f5ef
+    ),
     common: (
         white: #ffffff,
-        black: #000,
+        violet: #7e70c1,
     ),
     heading: (
-        primary: #050D36,
-        secondary:#FF6652,
-        b-light:#050D36,
+        primary: #081143,
+        secondary:#da4379,
+        b-light:#071553,
     ),
-    grey: (
-        1:#F8FAFA,
-        2:#F5F6F8,
-
+    green: (
+        1:#f0f9f3,
+        2:#9fcaac
     ),
     text: (
         body:#000,
         1:#000,
-        2:#777C90,
+        2:#6c7182,
     ),
     theme: (
-        1: #FF6652,
+        1: #9fcaac,
         2: #F7F8F9,
 
     ),
     border: (
         1: #fff,
-        2: #245D51,
+        2: #7e70c1,
     )
 );

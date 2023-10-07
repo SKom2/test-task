@@ -38,7 +38,7 @@
 .circle_size_m {
     width: 59%;
     padding-bottom: 59%;
-    background-color: #d9d9f1;
+    background-color: var(--tp-animation-violet);
     top: -20%;
     left: -10%;
 }
@@ -46,7 +46,7 @@
 .circle_size_s {
     width: 50%;
     padding-bottom: 50%;
-    background-color: #d4eee4;
+    background-color: var(--tp-animation-light-green);
     top: 20%;
     right: 5%;
 }
@@ -54,7 +54,7 @@
 .circle_size_xs {
     width: 30%;
     padding-bottom: 30%;
-    background-color: #f7f5ef;
+    background-color: var(--tp-animation-light-yellow);
     top: -60%;
     right: 5%;
 }
@@ -62,7 +62,7 @@
 .circle_size_l {
     width: 68%;
     padding-bottom: 68%;
-    background-color: #f7f5ef;
+    background-color: var(--tp-animation-light-yellow);
     bottom: 25%;
     right: -10%;
 }
@@ -97,7 +97,7 @@
         font-weight: 400 ;
         font-size: 20px;
         margin-bottom: 20px;
-        color: var(--tp-common-white);
+        color: var(--tp-heading-primary);
         display: block;
         @media #{$xl,$lg,$md,$xs} {
             font-size: 18px;
@@ -111,7 +111,7 @@
     & .hero-title {
         font-size: 64px;
         line-height: 1.3;
-        color: var(--tp-common-white);
+        color: var(--tp-green-2);
         @media #{$xl}{
             font-size: 54px;
             margin-bottom: 25px;
@@ -126,13 +126,13 @@
             margin-bottom: 20px;
         }
         & i {
-            color: var(--tp-heading-secondary);
+            color: var(--tp-border-2);
             font-style: normal;
         }
     }
     & p {
         font-size: 18px;
-        color: var(--tp-common-white);
+        color: var(--tp-heading-primary);
         line-height: 1.7;
         margin-bottom: 55px;
         @media #{$xl}{

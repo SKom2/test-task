@@ -9,8 +9,7 @@ const testimonial_data = [
     title: "Sr. UX/UI Designer",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        This UX/UI course was a game-changer. Well-structured, practical, and expert-led. Highly recommended for aspiring designers.
       </>
     ),
   },
@@ -21,8 +20,7 @@ const testimonial_data = [
     title: "Software Engineer",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        Top-notch software engineering course with a wide scope. Expert instructors, real projects, and perfect for skill enhancement.
       </>
     ),
   },
@@ -33,8 +31,7 @@ const testimonial_data = [
     title: "Content Writer",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        This content writer course is valuable for all levels. Clear instruction and SEO coverage make it an excellent choice.
       </>
     ),
   },
@@ -45,8 +42,7 @@ const testimonial_data = [
     title: "Content Writer",
     des: (
       <>
-        Dramatically supply transparent deliverab before & you backward comp
-        internal or "organic" sources.
+        Almost missed mentioning, but this course is comprehensive and great for all levels. Instructors are superb, and it covers essential SEO aspects too. Perfect for enhancing writing skills!
       </>
     ),
   },

@@ -6,7 +6,7 @@
     }
 
 
-    @mixin tp-afbf($style: 'default', $content: '', $top: 50%, $left: 0, $right: auto, $x:0%, $y:-50%, $height: 12px, $width:1px, $bg-color: var(--tp-common-black)) {
+    @mixin tp-afbf($style: 'default', $content: '', $top: 50%, $left: 0, $right: auto, $x:0%, $y:-50%, $height: 12px, $width:1px, $bg-color: var(--tp-common-violet)) {
 
         @if ($style == 'center') {
             $top:50%;

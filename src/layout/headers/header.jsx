@@ -29,7 +29,7 @@ const {sticky} = useSticky()
                   <div className="logo-area d-flex align-items-center">
                     <div className="logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo.png" alt="logo" />
+                        <img src={`${sticky ? "/assets/img/logo/logo.png" : "/assets/img/logo/logo-black.png"}`} alt="logo" />
                       </Link>
                     </div>
                     <div className="header-cat-menu ml-40 d-none d-md-block">
@@ -43,7 +43,7 @@ const {sticky} = useSticky()
                               </span>
                             </a>
                             <ul className="sub-menu">
-                              {category_data.map((item, i) => 
+                              {category_data.map((item, i) =>
                                <li key={i}>
                                <Link href="/course-grid">{item.title}</Link>
                              </li>
@@ -56,7 +56,7 @@ const {sticky} = useSticky()
                   </div>
                 </div>
                 <div className="col-xxl-9 col-xl-9 col-lg-7 col-md-6 col-6 d-flex align-items-center justify-content-end">
-                  <div className="main-menu d-flex justify-content-end mr-15">
+                  <div className={`${sticky ? "main-menu-white main-menu" : "main-menu"} d-flex justify-content-end mr-15`}>
                     <nav id="mobile-menu" className="d-none d-xl-block">
                       <NavMenu />
                     </nav>
@@ -72,7 +72,7 @@ const {sticky} = useSticky()
                         </div>
                       </form>
                     </div>
-                    <div className="header-meta">
+                    <div className={`${sticky ? "header-meta header-meta-white" : "header-meta"}`}>
                       <ul>
                         <li>
                           <Link href="/sign-in" className="d-none d-md-block">

@@ -235,7 +235,7 @@
                 &:not(:last-child){
                     margin-right: 20px;
                 }
-            } 
+            }
             & span {
                 @media #{$lg} {
                     font-size: 14px;
@@ -323,7 +323,7 @@
         &:hover{
             background: #F2994A;
             color: var(--tp-common-white);
-        } 
+        }
     }
     & .c-color-light-yellow {
         background-color:rgb(242, 201, 76, .1);
@@ -331,7 +331,7 @@
         &:hover{
             background: #F2C94C;
             color: var(--tp-common-white);
-        } 
+        }
     }
     & .c-color-aqua {
         background-color:rgb(86, 204, 242, .1);
@@ -339,7 +339,7 @@
         &:hover{
             background: #56CCF2;
             color: var(--tp-common-white);
-        } 
+        }
     }
     & .c-color-red {
         background-color:rgb(235, 87, 87, .1);
@@ -386,7 +386,7 @@
     position: relative;
     margin: 0 5px 20px 5px;
     @media #{$lg} {
-        padding: 10px 24px; 
+        padding: 10px 24px;
         font-size: 15px;
     }
     @media #{$xs} {
@@ -617,7 +617,7 @@
     font-size: 30px;
     @media #{$xs} {
         font-size: 20px;
-    }    
+    }
 }
 .course-avata {
 	width: 190px;

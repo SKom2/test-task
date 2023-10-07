@@ -27,7 +27,7 @@ const about_info = {
     img_3: "/assets/img/about/about-shape-02.png",
     about_title: "About Our Courses",
     sub_title:"Explore Thousands of Creative Classes.",
-    des: <>Dramatically supply transparent deliverables beforese backward comp internal or "organic" sources. Comp  transparent leverage other.</>,
+    des: <>Ready to explore your creative side? With our wide range of creative classes, you can discover new talents and passions. </>,
     about_btn: "Read More"
 }
 
@@ -55,7 +55,7 @@ const AboutArea = () => {
                       className={item.cls}
                     />
                   ))}
-                
+
                 </div>
                 <div className="tp-about-shape  d-none d-xl-block">
                   <img

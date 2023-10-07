@@ -10,7 +10,7 @@ const suitable_data = [
         Do you want to <span>Learn</span> here?
       </>
     ),
-    des: <>Dramatically supply transpa deliverables before & you.</>,
+    des: <>If you're interested in a web design course, you're in the right place.</>,
     img: "/assets/img/bg/suit-bg-01.png",
   },
   {
@@ -20,7 +20,7 @@ const suitable_data = [
         Do you want to <span>Learn</span> here?
       </>
     ),
-    des: <>Dramatically supply transpa deliverables before & you.</>,
+    des: <>If you're considering a software development course, choose this one.</>,
     img: "/assets/img/bg/suit-bg-02.png",
   },
 ];

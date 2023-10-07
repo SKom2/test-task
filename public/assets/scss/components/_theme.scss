@@ -50,7 +50,7 @@
 }
 
 /*---------------------------------
-    typography css start 
+    typography css start
 ---------------------------------*/
 body {
 	font-family: var(--tp-ff-body);
@@ -90,7 +90,7 @@ h6 {
 h1 {
 	font-size: var(--tp-fz-h1);
 }
-  
+
 h2 {
 font-size: var(--tp-fz-h2);
 }
@@ -179,7 +179,7 @@ button:hover{
 }
 
 button:focus{
-    outline: 0; 
+    outline: 0;
     border:0
 }
 
@@ -208,35 +208,35 @@ input[type="color"] {
 }
 
 *::-moz-selection {
-	background: var(--tp-common-black);
+	background: var(--tp-common-violet);
 	color: var(--tp-common-white);
 	text-shadow: none;
 }
 ::-moz-selection {
-	background: var(--tp-common-black);
+	background: var(--tp-common-violet);
 	color: var(--tp-common-white);
 	text-shadow: none;
 }
 ::selection {
-	background: var(--tp-common-black);
+	background: var(--tp-common-violet);
 	color: var(--tp-common-white);
 	text-shadow: none;
 }
 
 
 *::-moz-placeholder {
-	color: var(--tp-common-black);
+	color: var(--tp-common-violet);
 	font-size: var(--tp-fz-body);
 	opacity: 1;
 }
 *::placeholder {
-	color: var(--tp-common-black);
+	color: var(--tp-common-violet);
 	font-size: var(--tp-fz-body);
 	opacity: 1;
 }
 
 /*---------------------------------
-    common classes css start 
+    common classes css start
 ---------------------------------*/
 img{
 	max-width: 100%;
@@ -303,11 +303,11 @@ img{
 
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 
 .body-overlay{
-    background-color: rgba($color: var(--tp-common-black), $alpha: .5);
+    background-color: rgba($color: var(--tp-common-violet), $alpha: .5);
 	height: 100%;
 	width: 100%;
 	position: fixed;

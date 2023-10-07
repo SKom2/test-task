@@ -50,8 +50,8 @@ const CourseDetailsArea = () => {
                      </div>
                      <div className="c-details-about mb-40">
                         <h5 className="tp-c-details-title mb-20">About This Course</h5>
-                        <p>Synergistically foster 24/7 leadership rather than scalable platforms. Conveniently visualize installed base products before interactive results. Collaboratively restore corporate experiences and open-source applications. Proactively mesh cooperative growth strategies for covalent opportunities. Competently create efficient markets through best-of-breed potentialities.</p>
-                        <p>Proactively initiate corporate vortals via bricks-and-clicks relationships. Dynamically envisioneer cutting-edge paradigms via client-centered relationships. Globally repurpose backward-compatible growth strategies and fully tested e-services. Energistically promote stand-alone models whereas effective solutions. Quickly target low-risk high-yield e-markets via web-enabled networks.</p>
+                        <p>This course is your ultimate gateway to becoming a proficient web designer. In this comprehensive program, we cover every aspect of modern web design using Adobe XD, from the fundamentals to advanced techniques. You'll learn how to create visually stunning and user-friendly websites, equipping you with the skills and knowledge needed to excel in the world of UI/UX design.</p>
+                        <p>Throughout the course, we delve into topics such as wireframing, prototyping, responsive design, and user experience principles. You'll gain hands-on experience by working on real-world projects, allowing you to build a strong portfolio to showcase your abilities. With our expert instructors and interactive learning modules, you'll master Adobe XD and emerge as a well-rounded web designer ready to tackle any design challenge. Whether you're a beginner looking to start a career in web design or a professional seeking to enhance your skills, this course provides the tools and expertise you need to succeed in the industry. Join us on this journey to unlock your full creative potential and deliver exceptional web designs to your clients.</p>
                      </div>
                      <div className="cor-details-instructor mb-40">
                         <h4 className="tp-c-details-title mb-40">Instructor</h4>
@@ -85,7 +85,8 @@ const CourseDetailsArea = () => {
                               </div>
                            </div>
                         </div>
-                        <p>Synergistically foster 24/7 leadership rather than scalable platforms. Conveniently visualize installed base products before interactive results. Collaboratively restore corporate experiences and open-source applications. Proactively mesh cooperative growth strategies.</p>
+                        <p>
+                           Greetings, students! I'm Hossain Mahmud, your web design instructor. With over a decade of experience in web design, I'm here to guide you through Adobe XD and the art of creating captivating, user-centric websites. Let's embark on this journey together to unleash your design potential!</p>
                      </div>
                      <div className="c-details-review pb-15">
                         <div className="c-review-title-wrapper">
@@ -93,7 +94,7 @@ const CourseDetailsArea = () => {
                         </div>
                         <div className="course-reviewer-item-wrapper">
 
-                              {review_content.map((item, i) => 
+                              {review_content.map((item, i) =>
                                  <div key={i} className="course-reviewer-item d-flex mb-25">
                                  <div className="course-review-ava">
                                     <img src={item.img} alt="details-avata" />
@@ -113,7 +114,7 @@ const CourseDetailsArea = () => {
                                     </div>
                                  </div>
                               </div>
-                                 
+
                                  )
                               }
 

@@ -10,11 +10,11 @@
 	text-align: center;
 	background-color: var(--tp-common-white);
 	@include border-radius(50%);
-	color: var(--tp-common-black);
+	color: var(--tp-common-violet);
 	animation: pulse 2s infinite;
 	&:hover{
-		background-color: var(--tp-common-black);
-		color: var(--tp-common-black);
+		background-color: var(--tp-common-violet);
+		color: var(--tp-common-violet);
 	}
 	& i{
 		padding-left: 2px;
@@ -37,7 +37,7 @@
 	& span{
 		display: inline-block;
 		width: 100%;
-		background: var(--tp-common-black);
+		background: var(--tp-common-violet);
 		display: block;
 		position: absolute;
 		height: 3px;
@@ -79,7 +79,7 @@
 
 	&:hover{
 		color: var(--tp-common-white);
-		background-color: var(--tp-common-black);
+		background-color: var(--tp-common-violet);
 	}
 	&:focus{
 		color: var(--tp-common-white);
@@ -112,7 +112,7 @@
 	}
 	&:focus{
 		color: var(--tp-common-white);
-	}	
+	}
 }
 
 /* border btn */

@@ -44629,21 +44629,21 @@ i[class*=" fi-ss-"]:before, i[class^=fi-ss-]:before, span[class*=fi-ss-]:before,
   @color declaration
   */
   --tp-common-white: #ffffff;
-  --tp-common-black: #000;
+  --tp-common-violet: #7e70c1;
   --tp-heading-primary: #050D36;
-  --tp-heading-secondary: #FF6652;
+  --tp-heading-secondary: #da4379;
   --tp-heading-b-light: #050D36;
-  --tp-grey-1: #F8FAFA;
-  --tp-grey-2: #F5F6F8;
+  --tp-green-1: #f0f9f3;
+  --tp-green-2: #9fcaac;
   --tp-text-body: #000;
   --tp-text-1: #000;
   --tp-text-2: #777C90;
-  --tp-theme-1: #FF6652;
+  --tp-theme-1: #9fcaac;
   --tp-theme-2: #F7F8F9;
   --tp-border-1: #fff;
-  --tp-border-2: #245D51;
-  --tp-text-violet: #d9d9f1;
-  --tp-animation-light-green: #d4eee4;
+  --tp-border-2: #7e70c1;
+  --tp-animation-violet: #d9d9f1;
+  --tp-animation-light-green: #f0f9f3;
   --tp-animation-light-yellow: #f7f5ef;
   /**
   @font weight declaration
@@ -44863,31 +44863,31 @@ input[type=color] {
 }
 
 *::-moz-selection {
-  background: var(--tp-common-black);
+  background: var(--tp-common-violet);
   color: var(--tp-common-white);
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: var(--tp-common-black);
+  background: var(--tp-common-violet);
   color: var(--tp-common-white);
   text-shadow: none;
 }
 
 ::selection {
-  background: var(--tp-common-black);
+  background: var(--tp-common-violet);
   color: var(--tp-common-white);
   text-shadow: none;
 }
 
 *::-moz-placeholder {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   font-size: var(--tp-fz-body);
   opacity: 1;
 }
 
 *::placeholder {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   font-size: var(--tp-fz-body);
   opacity: 1;
 }
@@ -44964,7 +44964,7 @@ img {
     Body Overlay
 -----------------------------------------*/
 .body-overlay {
-  background-color: rgba(var(--tp-common-black), 0.5);
+  background-color: rgba(var(--tp-common-violet), 0.5);
   height: 100%;
   width: 100%;
   position: fixed;
@@ -45022,11 +45022,11 @@ img {
     - Background color
 -----------------------------------------*/
 .grey-bg {
-  background-color: var(--tp-grey-1);
+  background-color: var(--tp-green-1);
 }
 
 .grey-bg-2 {
-  background-color: var(--tp-grey-2);
+  background-color: var(--tp-green-2);
 }
 
 .white-bg {
@@ -45034,7 +45034,7 @@ img {
 }
 
 .black-bg {
-  background-color: var(--tp-common-black);
+  background-color: var(--tp-common-violet);
 }
 
 .theme-bg {
@@ -46410,12 +46410,12 @@ img {
   text-align: center;
   background-color: var(--tp-common-white);
   border-radius: 50%;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   animation: pulse 2s infinite;
 }
 .pulse-btn:hover {
-  background-color: var(--tp-common-black);
-  color: var(--tp-common-black);
+  background-color: var(--tp-common-violet);
+  color: var(--tp-common-violet);
 }
 .pulse-btn i {
   padding-left: 2px;
@@ -46435,7 +46435,7 @@ img {
 .hamurger-btn span {
   display: inline-block;
   width: 100%;
-  background: var(--tp-common-black);
+  background: var(--tp-common-violet);
   display: block;
   position: absolute;
   height: 3px;
@@ -46475,7 +46475,7 @@ img {
 }
 .tp-btn:hover {
   color: var(--tp-common-white);
-  background-color: var(--tp-common-black);
+  background-color: var(--tp-common-violet);
 }
 .tp-btn:focus {
   color: var(--tp-common-white);
@@ -46838,10 +46838,10 @@ img {
   display: inline-block;
 }
 .breadcrumb__list span a:hover {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
 }
 .breadcrumb__list span.sub-page-black {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
 }
 .breadcrumb__list-2 span {
   font-size: 14px;
@@ -47126,8 +47126,8 @@ img {
 .header__search-input input {
   width: 200px;
   height: 50px;
-  background-color: var(--tp-grey-1);
-  border: 1px solid var(--tp-grey-1);
+  background-color: var(--tp-green-1);
+  border: 1px solid var(--tp-green-1);
   padding: 0 20px;
   padding-left: 40px;
   border-radius: 50px;
@@ -47146,7 +47146,7 @@ img {
   left: 15px;
   font-size: 20px;
   color: var(--tp-heading-secondary);
-  background-color: var(--tp-grey-1);
+  background-color: var(--tp-green-1);
 }
 .header__search-2 {
   margin-left: 13px;
@@ -47242,7 +47242,7 @@ img {
 }
 .header__social ul li a {
   font-size: 14px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   display: inline-block;
 }
 .header__social ul li a:hover {
@@ -47416,7 +47416,7 @@ img {
   padding: 10px 25px;
   font-size: 14px;
   z-index: 1;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   width: 100%;
 }
 .main-menu ul > li .submenu li a::before {
@@ -47460,7 +47460,7 @@ img {
   color: var(--tp-text-2);
 }
 .main-menu-white ul li a:hover {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
 }
 .main-menu-white ul li a::before {
   top: 68px;
@@ -47547,13 +47547,13 @@ div.main-menu-black ul li a {
   color: var(--tp-text-2);
 }
 div.main-menu-black ul li a:hover {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
 }
 div.main-menu-black ul li.has-dropdown > a::after {
   color: var(--tp-text-2);
 }
 div.main-menu-black ul li.has-dropdown > a:hover::after {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
 }
 
 .header-search-box form {
@@ -49773,7 +49773,7 @@ div.choose-sub-color {
   border-radius: 5px;
   display: block;
   z-index: 9;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .tpchoose-img-text ul li i {
@@ -50344,7 +50344,7 @@ div.choose-sub-color {
 }
 .tp-suit__title {
   font-size: 24px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   line-height: 34px;
 }
 .tp-suit__title span {
@@ -50984,7 +50984,7 @@ div.choose-sub-color {
 }
 .postbox__comment-input span {
   font-weight: 600;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   margin-bottom: 12px;
   display: block;
 }
@@ -50993,7 +50993,7 @@ div.choose-sub-color {
   padding: 0 20px;
   width: 100%;
   font-size: 14px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   outline: none;
   border: 1px solid transparent;
   border-radius: 7px;
@@ -51104,7 +51104,7 @@ div.choose-sub-color {
   line-height: 1;
 }
 .postbox__comment-agree label a {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   font-weight: 600;
   padding-left: 4px;
 }
@@ -51117,7 +51117,7 @@ div.choose-sub-color {
 .postbox__tag span {
   font-size: 16px;
   margin-bottom: 17px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   margin-right: 10px;
 }
 
@@ -51219,11 +51219,11 @@ div.choose-sub-color {
   width: 100%;
   height: 60px;
   line-height: 60px;
-  background: var(--tp-grey-1);
+  background: var(--tp-green-1);
   padding: 0 25px;
   text-transform: capitalize;
   border-radius: 7px;
-  border: 2px solid var(--tp-grey-1);
+  border: 2px solid var(--tp-green-1);
   outline: none;
   padding-top: 3px;
   padding-right: 80px;
@@ -51267,7 +51267,7 @@ div.choose-sub-color {
 .sidebar__banner-content h4 {
   padding: 15px 20px;
   font-size: 24px;
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -51313,7 +51313,7 @@ div.choose-sub-color {
 }
 
 blockquote {
-  background: var(--tp-grey-1);
+  background: var(--tp-green-1);
   padding: 35px 50px;
   margin-bottom: 35px;
 }
@@ -52308,7 +52308,7 @@ p.checkout-coupon input[type=text]:focus {
   }
 }
 .forgot-login a {
-  color: var(--tp-common-black);
+  color: var(--tp-common-violet);
 }
 
 .forgot-login a:hover {

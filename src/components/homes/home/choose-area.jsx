@@ -12,7 +12,7 @@ const choose_data = {
       E-Pora Online learning
     </>
   ),
-  des: 'Dramatically supply transparent deliverables before & can backward comp internal or "organic" sources.',
+  des: 'We provide online learning for quality education, flexibility, and certification.',
 
   choose_list: [
     { title: "Increasing Your Learning Skills" },

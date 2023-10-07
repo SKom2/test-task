@@ -344,7 +344,7 @@
             margin-bottom: 20px;
             & span{
                 font-weight: 600;
-                color: var(--tp-common-black);
+                color: var(--tp-common-violet);
                 margin-bottom: 12px;
                 display: block;
             }
@@ -355,7 +355,7 @@
                 padding: 0 20px;
                 width: 100%;
                 font-size: 14px;
-                color: var(--tp-common-black);
+                color: var(--tp-common-violet);
                 outline: none;
                 border: 1px solid transparent;
                 @include border-radius(7px);
@@ -472,7 +472,7 @@
                 color: var(--tp-text-1);
                 line-height: 1;
                 & a{
-                    color: var(--tp-common-black);
+                    color: var(--tp-common-violet);
                     font-weight: 600;
                     padding-left: 4px;
                     &:hover{
@@ -489,7 +489,7 @@
         & span{
             font-size: 16px;
             margin-bottom: 17px;
-            color: var(--tp-common-black);
+            color: var(--tp-common-violet);
             margin-right: 10px;
         }
     }
@@ -603,11 +603,11 @@
             width: 100%;
             height: 60px;
             line-height: 60px;
-            background: var(--tp-grey-1);
+            background: var(--tp-green-1);
             padding: 0 25px;
             text-transform: capitalize;
             @include border-radius(7px);
-            border: 2px solid var(--tp-grey-1);
+            border: 2px solid var(--tp-green-1);
             outline: none;
             padding-top: 3px;
             padding-right: 80px;
@@ -649,7 +649,7 @@
             & h4{
                 padding: 15px 20px;
                 font-size: 24px;
-                color: var(--tp-common-black);
+                color: var(--tp-common-violet);
                 text-transform: uppercase;
                 margin-bottom: 0;
             }
@@ -698,7 +698,7 @@
 // blockquote css start
 
 blockquote{
-    background: var(--tp-grey-1);
+    background: var(--tp-green-1);
     padding: 35px 50px;
     margin-bottom: 35px;
     @media #{$xs}{
