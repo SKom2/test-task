@@ -40,9 +40,9 @@ const menu_data = [
     link: "/course-grid",
     has_dropdown: true,
     sub_menus: [
-      { link: "/course-grid", title: "Id Grid" },
-      { link: "/course-list", title: "Id List" },
-      { link: "/course-details", title: "Id Details" },
+      { link: "/course-grid", title: "Course Grid" },
+      { link: "/course-list", title: "Course List" },
+      { link: "/course-details", title: "Course Details" },
     ],
   },
   {

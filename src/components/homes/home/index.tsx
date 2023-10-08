@@ -12,7 +12,12 @@ import TestimonialArea from "./testimonial-area";
 import BlogArea from "./blog-area";
 import BrandArea from "../../../common/brand-area";
 
-const Home = ({ courses }) => {
+interface CourseDetailsProps{
+    courses: AllCourses[];
+}
+
+
+const Home:React.FC<CourseDetailsProps> = ({ courses }) => {
   return (
     <>
       <HeroBanner />

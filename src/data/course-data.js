@@ -12,6 +12,7 @@ const course_data = [
         course_name: "Development",
         course_price: "29.99",
         course_duration: "16",
+        course_reviews: "125",
         review_content: [
             {
                 id: 1,
@@ -64,6 +65,7 @@ const course_data = [
         course_name: "Development",
         course_price: "30.00",
         course_duration: "18",
+        course_reviews: "150",
         review_content: [
             {
                 id: 1,
@@ -116,6 +118,7 @@ const course_data = [
         course_name: "Mastery",
         course_price: "25.00",
         course_duration: "20",
+        course_reviews: "200",
         review_content: [
             {
                 id: 1,
@@ -168,6 +171,7 @@ const course_data = [
         course_name: "Freelancing",
         course_price: "20.00",
         course_duration: "14",
+        course_reviews: "175",
         review_content: [
             {
                 id: 1,
@@ -220,6 +224,7 @@ const course_data = [
         course_name: "Dreamweaver",
         course_price: "20.00",
         course_duration: "12",
+        course_reviews: "160",
         review_content: [
             {
                 id: 1,
@@ -272,6 +277,7 @@ const course_data = [
         course_name: "Writing",
         course_price: "20.00",
         course_duration: "10",
+        course_reviews: "190",
         review_content: [
             {
                 id: 1,

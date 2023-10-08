@@ -26,7 +26,12 @@ export async function getServerSideProps(context) {
     };
 }
 
-const Course = ({ course, allCourses }) => {
+interface CourseDetailsProps{
+    course: Course;
+    allCourses: AllCourses[];
+}
+
+const Course: React.FC<CourseDetailsProps> = ({ course, allCourses }) => {
     return (
         <WrapperFour>
             <SEO pageTitle={"Course Details"} />
