@@ -26,11 +26,11 @@ const CourseArea = () => {
                   data-wow-delay=".2s"
                 >
                   <div className="tpcourse__thumb p-relative w-img fix">
-                    <Link href="/course-details">
+                    <Link href="/course-details/[id]">
                       <img src={item.img} alt="course-thumb" />
                     </Link>
                     <div className="tpcourse__tag">
-                      <Link href="/course-details">
+                      <Link href="/course-details/[id]">
                         <i className="fi fi-rr-heart"></i>
                       </Link>
                     </div>
@@ -44,7 +44,7 @@ const CourseArea = () => {
                         <li>
                           <Link
                             className={item.ct_color}
-                            href="/course-details"
+                            href="/course-details/[id]"
                           >
                             {item.course_title}
                           </Link>
@@ -52,7 +52,7 @@ const CourseArea = () => {
                         <li>
                           <Link
                             className={item.cn_color}
-                            href="/course-details"
+                            href="/course-details/[id]"
                           >
                             {item.course_name}
                           </Link>
@@ -61,7 +61,7 @@ const CourseArea = () => {
                     </div>
                     <div className="tpcourse__ava-title mb-15">
                       <h4 className="tpcourse__title tp-cours-title-color">
-                        <Link href="/course-details">{item.title}</Link>
+                        <Link href="/course-details/[id]">{item.title}</Link>
                       </h4>
                     </div>
                     <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">

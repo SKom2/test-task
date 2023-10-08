@@ -2,7 +2,7 @@ import our_course_data from "@/src/data/our-course-data";
 import Link from "next/link";
 import React from "react";
 
-const CourseArea = () => {
+const CourseArea = ({allCourses}) => {
   return (
     <>
       <section className="course-area mb-80">
@@ -15,7 +15,7 @@ const CourseArea = () => {
             </div>
           </div>
           <div className="row">
-            {our_course_data.slice(0, 3).map((item, i) => (
+            {allCourses.slice(0, 3).map((item, i) => (
               <div key={i} className="col-xl-4 col-lg-6 col-md-6">
                 <div
                   className="tpcourse mb-40 wow fadeInUp"
@@ -23,11 +23,11 @@ const CourseArea = () => {
                   data-wow-delay=".3s"
                 >
                   <div className="tpcourse__thumb p-relative w-img fix">
-                    <Link href={item.course_link}>
+                    <Link href={`${item.course_link}/${item.id}`}>
                       <img src={item.img} alt="course-thumb" />
                     </Link>
                     <div className="tpcourse__tag">
-                      <Link href={item.course_link}>
+                      <Link href={`${item.course_link}/${item.id}`}>
                         <i className="fi fi-rr-heart"></i>
                       </Link>
                     </div>
@@ -41,7 +41,7 @@ const CourseArea = () => {
                         <li>
                           <Link
                             className={item.ct_color}
-                            href={item.course_link}
+                            href={`${item.course_link}/${item.id}`}
                           >
                             {item.course_title}
                           </Link>
@@ -49,7 +49,7 @@ const CourseArea = () => {
                         <li>
                           <Link
                             className={item.cn_color}
-                            href={item.course_link}
+                            href={`${item.course_link}/${item.id}`}
                           >
                             {item.course_name}
                           </Link>
@@ -58,7 +58,7 @@ const CourseArea = () => {
                     </div>
                     <div className="tpcourse__ava-title mb-15">
                       <h4 className="tpcourse__title tp-cours-title-color">
-                        <Link href={item.course_link}>{item.title}</Link>
+                        <Link href={`${item.course_link}/${item.id}`}>{item.title}</Link>
                       </h4>
                     </div>
                     <div className="tpcourse__meta tpcourse__meta-gap pb-15 mb-15">

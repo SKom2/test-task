@@ -17,7 +17,7 @@ const choose_data = {
   choose_list: [
     { title: "Increasing Your Learning Skills" },
     { title: "High Quality Video & Audio Classes" },
-    { title: "Finish Your Course, Get Certificate" },
+    { title: "Finish Your Id, Get Certificate" },
   ],
 };
 

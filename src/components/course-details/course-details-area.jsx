@@ -3,7 +3,7 @@ import Link from 'next/link';
 import  {useState} from 'react';
 
 
-const CourseDetailsArea = () => {
+const CourseDetailsArea = ({course}) => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
     return (
@@ -23,18 +23,18 @@ const CourseDetailsArea = () => {
                      <div className="course-details-content mb-45">
                         <div className="tpcourse__category mb-15">
                            <ul className="tpcourse__price-list d-flex align-items-center">
-                              <li><a className="c-color-green" href="#">Design</a></li>
-                              <li><a className="c-color-yellow" href="#">Development</a></li>
+                              <li><a className="c-color-green" href="#">{course.course_title}</a></li>
+                              <li><a className="c-color-yellow" href="#">{course.course_name}</a></li>
                            </ul>
                         </div>
                         <div className="tpcourse__ava-title mb-25">
-                           <h4 className="c-details-title"><a href="#">Master Web Design in Adobe XD: Complete UI/UX Masterclass</a></h4>
+                           <h4 className="c-details-title"><a href="#">{course.title}</a></h4>
                         </div>
                         <div className="tpcourse__meta course-details-list">
                            <ul className="d-flex align-items-center">
                               <li>
                                  <div className="rating-gold d-flex align-items-center">
-                                    <p>4.7</p>
+                                    <p>{course.start_text}</p>
                                     <i className="fi fi-ss-star"></i>
                                     <i className="fi fi-ss-star"></i>
                                     <i className="fi fi-ss-star"></i>
@@ -43,15 +43,15 @@ const CourseDetailsArea = () => {
                                     <span>(125)</span>
                                  </div>
                               </li>
-                              <li><img src="/assets/img/icon/c-meta-01.png" alt="meta-icon" /> <span>35 Classes</span></li>
-                              <li><img src="/assets/img/icon/c-meta-02.png" alt="meta-icon" /> <span>291 Students</span></li>
+                              <li><img src="/assets/img/icon/c-meta-01.png" alt="meta-icon" /> <span>{course.cls_text}</span></li>
+                              <li><img src="/assets/img/icon/c-meta-02.png" alt="meta-icon" /> <span>{course.st_text}</span></li>
                            </ul>
                         </div>
                      </div>
                      <div className="c-details-about mb-40">
-                        <h5 className="tp-c-details-title mb-20">About This Course</h5>
-                        <p>This course is your ultimate gateway to becoming a proficient web designer. In this comprehensive program, we cover every aspect of modern web design using Adobe XD, from the fundamentals to advanced techniques. You'll learn how to create visually stunning and user-friendly websites, equipping you with the skills and knowledge needed to excel in the world of UI/UX design.</p>
-                        <p>Throughout the course, we delve into topics such as wireframing, prototyping, responsive design, and user experience principles. You'll gain hands-on experience by working on real-world projects, allowing you to build a strong portfolio to showcase your abilities. With our expert instructors and interactive learning modules, you'll master Adobe XD and emerge as a well-rounded web designer ready to tackle any design challenge. Whether you're a beginner looking to start a career in web design or a professional seeking to enhance your skills, this course provides the tools and expertise you need to succeed in the industry. Join us on this journey to unlock your full creative potential and deliver exceptional web designs to your clients.</p>
+                        <h5 className="tp-c-details-title mb-20">About This Id</h5>
+                        <p>{course.about_first_p}</p>
+                        <p>{course.about_second_p}</p>
                      </div>
                      <div className="cor-details-instructor mb-40">
                         <h4 className="tp-c-details-title mb-40">Instructor</h4>
@@ -60,33 +60,33 @@ const CourseDetailsArea = () => {
                               <img src="/assets/img/course/c-details-ava-thumb-01.jpg" alt="avata-thumb" />
                            </div>
                            <div className="course-avatar-details mb-20">
-                              <h5 className="c-avata-title mb-10">Hossain Mahmud</h5>
-                              <p>Award Winning Chemical & User Interface Design Training</p>
+                              <h5 className="c-avata-title mb-10">{course.instructors_name}</h5>
+                              <p>{course.instructors_title}</p>
                               <div className="c-details-list mb-5">
                                  <ul className="d-flex align-items-center">
                                     <li>
                                        <div className="rating-gold d-flex align-items-center">
-                                          <p>4.7</p>
+                                          <p>{course.instructors_rate}</p>
                                           <i className="fi fi-ss-star"></i>
                                           <i className="fi fi-ss-star"></i>
                                           <i className="fi fi-ss-star"></i>
                                           <i className="fi fi-ss-star"></i>
                                           <i className="fi fi-rs-star"></i>
-                                          <span>(125)</span>
+                                          <span>({course.instructors_reviews})</span>
                                        </div>
                                     </li>
-                                    <li><img src="/assets/img/icon/c-details-01.png" alt="meta-icon" /><span>35 Classes</span></li>
+                                    <li><img src="/assets/img/icon/c-details-01.png" alt="meta-icon" /><span>{course.instructors_classes} Classes</span></li>
                                  </ul>
                               </div>
                               <div className="c-details-stu">
                                  <ul>
-                                    <li className="d-flex align-items-center"><img src="/assets/img/icon/c-details-02.png" alt="meta-icon"/> <span>2,35,687 Students</span></li>
+                                    <li className="d-flex align-items-center"><img src="/assets/img/icon/c-details-02.png" alt="meta-icon"/> <span>{course.instructors_st} Students</span></li>
                                  </ul>
                               </div>
                            </div>
                         </div>
                         <p>
-                           Greetings, students! I'm Hossain Mahmud, your web design instructor. With over a decade of experience in web design, I'm here to guide you through Adobe XD and the art of creating captivating, user-centric websites. Let's embark on this journey together to unleash your design potential!</p>
+                           {course.instructors_text} </p>
                      </div>
                      <div className="c-details-review pb-15">
                         <div className="c-review-title-wrapper">
@@ -94,7 +94,7 @@ const CourseDetailsArea = () => {
                         </div>
                         <div className="course-reviewer-item-wrapper">
 
-                              {review_content.map((item, i) =>
+                              {course.review_content.map((item, i) =>
                                  <div key={i} className="course-reviewer-item d-flex mb-25">
                                  <div className="course-review-ava">
                                     <img src={item.img} alt="details-avata" />
@@ -132,21 +132,21 @@ const CourseDetailsArea = () => {
                      </div>
                      <div className="course-details-widget">
                         <div className="cd-video-price">
-                           <h3 className="pricing-video text-center mb-15">$29.99</h3>
+                           <h3 className="pricing-video text-center mb-15">${course.course_price}</h3>
                            <div className="cd-pricing-btn text-center mb-30">
-                              <Link className="tp-vp-btn" href="/course-details">Add To Cart</Link>
-                              <Link className="tp-vp-btn-green" href="/course-details">Enroll Now</Link>
+                              <Link className="tp-vp-btn" href="/course-details/[id]">Add To Cart</Link>
+                              <Link className="tp-vp-btn-green" href="/course-details/[id]">Enroll Now</Link>
                            </div>
                         </div>
                         <div className="cd-information mb-35">
                            <ul>
-                              <li><i className="fa-light fa-calendars"></i> <label>Lesson</label> <span>36</span></li>
-                              <li><i className="fi fi-rr-chart-pie-alt"></i> <label>Quizess</label> <span>6</span></li>
-                              <li><i className="fi fi-rr-user"></i> <label>Students</label> <span>105</span></li>
-                              <li><i className="fa-light fa-clock-desk"></i> <label>Duration</label> <span>16 Hours</span></li>
-                              <li><i className="fi fi-sr-stats"></i> <label>Skill Level</label> <span>Beginner</span></li>
-                              <li><i className="fi fi-rr-comments"></i> <label>Language</label> <span>English</span></li>
-                              <li><i className="fi fi-rs-diploma"></i> <label>Certificate</label> <span>Yes</span></li>
+                              <li><i className="fa-light fa-calendars"></i> <label>Lesson</label> <span>{course.lessons_number}</span></li>
+                              <li><i className="fi fi-rr-chart-pie-alt"></i> <label>Quizess</label> <span>{course.quizess_number}</span></li>
+                              <li><i className="fi fi-rr-user"></i> <label>Students</label> <span>{course.students_number}</span></li>
+                              <li><i className="fa-light fa-clock-desk"></i> <label>Duration</label> <span>{course.course_duration} Hours</span></li>
+                              <li><i className="fi fi-sr-stats"></i> <label>Skill Level</label> <span>{course.skill_level}</span></li>
+                              <li><i className="fi fi-rr-comments"></i> <label>Language</label> <span>{course.language}</span></li>
+                              <li><i className="fi fi-rs-diploma"></i> <label>Certificate</label> <span>{course.certificate}</span></li>
                            </ul>
                         </div>
                         <div className="c-details-social">

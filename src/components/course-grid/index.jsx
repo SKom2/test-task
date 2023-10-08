@@ -8,7 +8,7 @@ import CourseArea from "./course-area";
 const CourseGrid = () => {
   return (
     <>
-      <Breadcrumb title="Course Grid" subtitle="Course Grid" isDbbl="Course" />
+      <Breadcrumb title="Id Grid" subtitle="Id Grid" isDbbl="Course" />
       <FeatureArea style_about={true} />
       <CourseArea />
       <SuitableArea style_2={true} />

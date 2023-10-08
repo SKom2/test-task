@@ -26,8 +26,8 @@ const  CourseListArea = () => {
                   <h4 className="course-sidebar__title mb-35">Category </h4>
                   <select>
                     <option value="volvo">All Category</option>
-                    <option value="saab">Course Level</option>
-                    <option value="mercedes">Course Price</option>
+                    <option value="saab">Id Level</option>
+                    <option value="mercedes">Id Price</option>
                     <option value="audi">Instructor</option>
                     <option value="audi2">Class Duration</option>
                   </select>
@@ -35,7 +35,7 @@ const  CourseListArea = () => {
                 <div className="course-sidebar__widget mb-50">
                   <div className="course-sidebar__info c-info-list">
                     <h4 className="course-sidebar__title mb-35">
-                      Course Level
+                      Id Level
                     </h4>
                     <div className="form-check">
                       <input
@@ -102,7 +102,7 @@ const  CourseListArea = () => {
                 <div className="course-sidebar__widget mb-50">
                   <div className="course-sidebar__info c-info-list">
                     <h4 className="course-sidebar__title mb-30">
-                      Course Price
+                      Id Price
                     </h4>
                     <div className="form-check">
                       <input
@@ -276,7 +276,7 @@ const  CourseListArea = () => {
                   <div className="row g-0">
                     <div className="col-xl-4 course-thumb-width">
                       <div className="tpcourse__thumb p-relative w-img fix">
-                        <Link href="/course-details">
+                        <Link href="/course-details/[id]">
                           <img src={item.img} alt="course-thumb" />
                         </Link>
                       </div>
@@ -288,7 +288,7 @@ const  CourseListArea = () => {
                             <li>
                               <Link
                                 className={item.ct_color}
-                                href="/course-details"
+                                href="/course-details/[id]"
                               >
                                 {item.course_title}
                               </Link>
@@ -296,7 +296,7 @@ const  CourseListArea = () => {
                             <li>
                               <Link
                                 className={item.cn_color}
-                                href="/course-details"
+                                href="/course-details/[id]"
                               >
                                 {item.course_name}
                               </Link>
@@ -305,7 +305,7 @@ const  CourseListArea = () => {
                         </div>
                         <div className="tpcourse__ava-title mb-15">
                           <h4 className="tpcourse__title tp-cours-title-color">
-                            <Link href="/course-details">
+                            <Link href="/course-details/[id]">
                               {item.title}
                             </Link>
                           </h4>

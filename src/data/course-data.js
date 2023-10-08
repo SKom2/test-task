@@ -1,6 +1,6 @@
 const course_data = [
     {
-        id: 1, 
+        id: 1,
         img: "/assets/img/course/course-thumb-01.jpg",
         icon: "/assets/img/icon/course-avata-01.png",
         title: "The Complete 2022 Web Development Camp",
@@ -11,9 +11,48 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "29.99",
+        course_duration: "16",
+        review_content: [
+            {
+                id: 1,
+                img: "/assets/img/icon/c-details-avata-01.png",
+                name: "John Smith",
+                review_text: "This web design course led by Hossain Mahmud was an absolute game-changer for me. It provided a perfect blend of technical expertise and creative inspiration.",
+                review_time: "a week ago"
+            },
+            {
+                id: 2,
+                img: "/assets/img/icon/c-details-avata-02.png",
+                name: "Mary Johnson",
+                review_text: "I highly recommend this web design course to anyone looking to dive into UI/UX design. The practical experience gained through real-world projects is invaluable.",
+                review_time: "a week ago"
+            },
+            {
+                id: 3,
+                img: "/assets/img/icon/c-details-avata-03.png",
+                name: "Robert Davis",
+                review_text: "Enrolling in this web design course was a game-changer for my career. The course content is top-notch, and the emphasis on user-centered design sets it apart.",
+                review_time: "a week ago"
+            },
+        ],
+        lessons_number: "36",
+        quizess_number: "6",
+        students_number: "105",
+        skill_level: "Beginner",
+        language: "English",
+        certificate: "Yes",
+        instructors_rate: "4.7",
+        instructors_reviews: "125",
+        instructors_name: "Hossain Mahmud",
+        instructors_title: "Award Winning Chemical & User Interface Design Training",
+        instructors_text: "Greetings, students! I'm Hossain Mahmud, your web design instructor. With over a decade of experience in web design, I'm here to guide you through Adobe XD and the art of creating captivating, user-centric websites. Let's embark on this journey together to unleash your design potential!",
+        instructors_classes: "35",
+        instructors_st: "2,35,687",
+        about_first_p: "This comprehensive web development camp is designed to equip you with the skills and knowledge needed to excel in the world of web design. You'll learn everything from the fundamentals of HTML and CSS to advanced JavaScript techniques. By the end of this course, you'll be able to create stunning and responsive websites that meet the needs of today's users.",
+        about_second_p: "In addition to the technical skills, we'll also focus on user-centered design principles, ensuring that your websites are not only functional but also user-friendly. With hands-on projects and expert guidance, you'll gain real-world experience and build a portfolio that showcases your abilities. Whether you're just starting your journey in web development or looking to enhance your skills, this course is your gateway to success."
     },
     {
-        id: 2, 
+        id: 2,
         img: "/assets/img/course/course-thumb-02.jpg",
         icon: "/assets/img/icon/course-avata-02.png",
         title: "Complete Web Design from Figma to Webflow",
@@ -24,23 +63,100 @@ const course_data = [
         course_link: "/course-details",
         course_name: "Development",
         course_price: "30.00",
+        course_duration: "18",
+        review_content: [
+            {
+                id: 1,
+                img: "/assets/img/icon/c-details-avata-01.png",
+                name: "Alice Thompson",
+                review_text: "I've learned a lot from this course. It covers a wide range of topics in web design and provides practical skills that I can apply to my projects.",
+                review_time: "2 weeks ago"
+            },
+            {
+                id: 2,
+                img: "/assets/img/icon/c-details-avata-02.png",
+                name: "James Wilson",
+                review_text: "Emily Johnson is an excellent instructor. Her teaching style is engaging, and I appreciate the hands-on approach to learning web design.",
+                review_time: "3 weeks ago"
+            },
+            {
+                id: 3,
+                img: "/assets/img/icon/c-details-avata-03.png",
+                name: "Sophia Brown",
+                review_text: "This course helped me improve my design skills significantly. The projects were challenging but rewarding, and I'm now more confident in my abilities as a web designer.",
+                review_time: "3 weeks ago"
+            },
+        ],
+        lessons_number: "40",
+        quizess_number: "8",
+        students_number: "250",
+        skill_level: "Intermediate",
+        language: "English",
+        certificate: "Yes",
+        instructors_rate: "4.8",
+        instructors_reviews: "150",
+        instructors_name: "Emily Johnson",
+        instructors_title: "Web Design Expert",
+        instructors_text: "Hello, I'm Emily Johnson, your web design instructor. I have a passion for teaching web design principles and helping students become proficient designers. Let's create beautiful websites together!",
+        instructors_classes: "38",
+        instructors_st: "2,50,462",
+        about_first_p: "This course is a comprehensive journey through the world of web design, taking you from Figma design concepts to fully functional websites in Webflow. You'll learn how to turn your design ideas into reality, using industry-standard tools and best practices.",
+        about_second_p: "Throughout the course, you'll work on real-world projects, gaining practical experience and building a portfolio that showcases your skills. Emily Johnson, our expert instructor, will guide you every step of the way. Whether you're an aspiring designer or looking to level up your skills, this course will equip you with the knowledge and confidence to excel in the field of web design."
     },
     {
-        id: 3, 
+        id: 3,
         img: "/assets/img/course/course-thumb-03.jpg",
         icon: "/assets/img/icon/course-avata-03.png",
         title: "SEO: Structured Data Markup for Web Masters",
         cls_text: "30 Classes",
         st_text: "400 Students",
         start_text: "4.7",
-        course_title: "Design",
+        course_title: "SEO",
         course_link: "/course-details",
-        course_name: "Development",
+        course_name: "Mastery",
         course_price: "25.00",
+        course_duration: "20",
+        review_content: [
+            {
+                id: 1,
+                img: "/assets/img/icon/c-details-avata-01.png",
+                name: "Daniel Miller",
+                review_text: "This course was a game-changer for me. I've gained a deep understanding of SEO and structured data markup, and it's already making a positive impact on my websites' rankings.",
+                review_time: "2 weeks ago"
+            },
+            {
+                id: 2,
+                img: "/assets/img/icon/c-details-avata-02.png",
+                name: "Olivia Smith",
+                review_text: "David Smith is a fantastic instructor. His explanations are clear, and he provides real-world examples to illustrate key concepts.",
+                review_time: "3 weeks ago"
+            },
+            {
+                id: 3,
+                img: "/assets/img/icon/c-details-avata-03.png",
+                name: "William Johnson",
+                review_text: "I highly recommend this course to anyone looking to improve their SEO skills. The practical exercises and case studies were particularly helpful.",
+                review_time: "3 weeks ago"
+            },
+        ],
+        lessons_number: "30",
+        quizess_number: "7",
+        students_number: "380",
+        skill_level: "Advanced",
+        language: "English",
+        certificate: "Yes",
+        instructors_rate: "4.9",
+        instructors_reviews: "200",
+        instructors_name: "David Smith",
+        instructors_title: "SEO Guru",
+        instructors_text: "Hi, I'm David Smith, your SEO instructor. I'll teach you the ins and outs of structured data markup for webmasters. Get ready to boost your website's search engine ranking!",
+        instructors_classes: "33",
+        instructors_st: "2,38,125",
+        about_first_p: "Unlock the power of SEO and structured data markup with this advanced course. You'll delve deep into the world of search engine optimization, mastering techniques that will propel your websites to the top of search engine results pages.",
+        about_second_p: "David Smith, our SEO Guru, will guide you through practical exercises and real-world case studies, providing you with the skills and knowledge to optimize websites effectively. Whether you're a seasoned webmaster or an SEO enthusiast, this course is your key to achieving higher rankings and increased visibility for your online content."
     },
-  
     {
-        id: 4, 
+        id: 4,
         img: "/assets/img/course/course-thumb-04.jpg",
         icon: "/assets/img/icon/course-avata-04.png",
         title: "Complete Web Design from Figma Freelancing",
@@ -49,35 +165,152 @@ const course_data = [
         start_text: "4.7",
         course_title: "Design",
         course_link: "/course-details",
-        course_name: "Development",
+        course_name: "Freelancing",
         course_price: "20.00",
+        course_duration: "14",
+        review_content: [
+            {
+                id: 1,
+                img: "/assets/img/icon/c-details-avata-01.png",
+                name: "Grace Wilson",
+                review_text: "This course opened up new opportunities for me as a freelance web designer. I learned how to market my services and attract clients.",
+                review_time: "2 weeks ago"
+            },
+            {
+                id: 2,
+                img: "/assets/img/icon/c-details-avata-02.png",
+                name: "Michael Brown",
+                review_text: "I've always wanted to start freelancing as a web designer, and this course provided me with the skills and confidence to do so.",
+                review_time: "3 weeks ago"
+            },
+            {
+                id: 3,
+                img: "/assets/img/icon/c-details-avata-03.png",
+                name: "Emma Jones",
+                review_text: "The freelancing tips and strategies shared in this course were invaluable. I'm now successfully freelancing as a web designer.",
+                review_time: "3 weeks ago"
+            },
+        ],
+        lessons_number: "28",
+        quizess_number: "6",
+        students_number: "200",
+        skill_level: "Intermediate",
+        language: "English",
+        certificate: "Yes",
+        instructors_rate: "4.7",
+        instructors_reviews: "175",
+        instructors_name: "Sarah Johnson",
+        instructors_title: "Freelance Web Designer",
+        instructors_text: "Hello, I'm Sarah Johnson, your instructor for this course on freelancing as a web designer. I'm excited to share my knowledge and experience with you so you can kickstart your freelance career!",
+        instructors_classes: "31",
+        instructors_st: "2,20,987",
+        about_first_p: "Are you ready to take your web design skills to the next level and embark on a successful freelancing journey? This course is your ticket to becoming a freelance web designer. You'll learn how to build a freelancing business, find clients, and deliver outstanding web design services.",
+        about_second_p: "Sarah Johnson, our experienced freelance web designer, will share her tips and strategies for freelancing success. By the end of this course, you'll have the skills and confidence to start your freelance career and build a portfolio that attracts clients."
     },
     {
-        id: 5, 
+        id: 5,
         img: "/assets/img/course/course-thumb-05.jpg",
         icon: "/assets/img/icon/course-avata-05.png",
         title: "Dreamweaver - Coding your first website using",
         cls_text: "28 Classes",
         st_text: "200 Students",
         start_text: "4.7",
-        course_title: "Design",
+        course_title: "Coding",
         course_link: "/course-details",
-        course_name: "Development",
+        course_name: "Dreamweaver",
         course_price: "20.00",
+        course_duration: "12",
+        review_content: [
+            {
+                id: 1,
+                img: "/assets/img/icon/c-details-avata-01.png",
+                name: "Ethan Clark",
+                review_text: "This course taught me how to code my first website using Dreamweaver. It was a great introduction to web development.",
+                review_time: "2 weeks ago"
+            },
+            {
+                id: 2,
+                img: "/assets/img/icon/c-details-avata-02.png",
+                name: "Ava White",
+                review_text: "I found Dreamweaver to be a user-friendly tool for coding websites, and this course made it even easier to get started.",
+                review_time: "3 weeks ago"
+            },
+            {
+                id: 3,
+                img: "/assets/img/icon/c-details-avata-03.png",
+                name: "Noah Hall",
+                review_text: "I wanted to learn web development, and this course provided a solid foundation using Dreamweaver as a beginner-friendly platform.",
+                review_time: "3 weeks ago"
+            },
+        ],
+        lessons_number: "28",
+        quizess_number: "6",
+        students_number: "200",
+        skill_level: "Beginner",
+        language: "English",
+        certificate: "Yes",
+        instructors_rate: "4.6",
+        instructors_reviews: "160",
+        instructors_name: "Michael Davis",
+        instructors_title: "Web Developer",
+        instructors_text: "Hi, I'm Michael Davis, your instructor for this Dreamweaver course. I'll guide you through coding your first website using this powerful tool. Let's start building!",
+        instructors_classes: "29",
+        instructors_st: "2,19,864",
+        about_first_p: "Ready to dive into web development? This course will teach you the fundamentals of web development using Dreamweaver, a user-friendly platform that's perfect for beginners. You'll learn how to code your first website from scratch and gain valuable coding skills.",
+        about_second_p: "Michael Davis, an experienced web developer, will walk you through the entire process, from setting up your development environment to creating and publishing your website. By the end of this course, you'll have a fully functional website and the skills to continue your web development journey."
     },
     {
-        id: 6, 
+        id: 6,
         img: "/assets/img/course/course-thumb-06.jpg",
         icon: "/assets/img/icon/course-avata-06.png",
         title: "How to Write Great Web Content - Better Search!",
         cls_text: "28 Classes",
         st_text: "200 Students",
         start_text: "4.7",
-        course_title: "Design",
+        course_title: "Content",
         course_link: "/course-details",
-        course_name: "Development",
+        course_name: "Writing",
         course_price: "20.00",
+        course_duration: "10",
+        review_content: [
+            {
+                id: 1,
+                img: "/assets/img/icon/c-details-avata-01.png",
+                name: "Liam Brown",
+                review_text: "This course taught me how to write great web content that ranks better in search engines. It was a valuable investment in my writing skills.",
+                review_time: "2 weeks ago"
+            },
+            {
+                id: 2,
+                img: "/assets/img/icon/c-details-avata-02.png",
+                name: "Olivia Smith",
+                review_text: "Susan Miller is an excellent instructor for content writing. Her expertise shines through in this course.",
+                review_time: "3 weeks ago"
+            },
+            {
+                id: 3,
+                img: "/assets/img/icon/c-details-avata-03.png",
+                name: "William Johnson",
+                review_text: "I've always struggled with writing web content, but this course made it much easier to understand and improve my writing skills.",
+                review_time: "3 weeks ago"
+            },
+        ],
+        lessons_number: "28",
+        quizess_number: "6",
+        students_number: "200",
+        skill_level: "Intermediate",
+        language: "English",
+        certificate: "Yes",
+        instructors_rate: "4.9",
+        instructors_reviews: "190",
+        instructors_name: "Susan Miller",
+        instructors_title: "Content Writing Expert",
+        instructors_text: "Hello, I'm Susan Miller, your content writing instructor. I'll teach you how to write great web content that ranks better in search engines. Let's get started!",
+        instructors_classes: "34",
+        instructors_st: "2,20,175",
+        about_first_p: "Are you looking to improve your web content writing skills? This course is your guide to creating high-quality web content that not only engages your audience but also performs well in search engine rankings. You'll learn the art of crafting compelling and SEO-friendly content.",
+        about_second_p: "Susan Miller, our expert content writing instructor, will share her tips and techniques for effective web content creation. By the end of this course, you'll have the skills to write web content that not only meets industry standards but also stands out in the competitive online landscape."
     }
-  
-]
-export default course_data
+];
+
+export default course_data;

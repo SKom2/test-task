@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-// choose data 
+// choose data
 const choose_data = {
 title: "Why Choose Us",
 sub_title: "Why You Choose Our E-Pora Online learning",
@@ -22,7 +22,7 @@ const choose_list_data = [
     list: "High Quality Video  & Audio Classes",
   },
   {
-    list: "Finish Your Course, Get Certificate",
+    list: "Finish Your Id, Get Certificate",
   },
 ];
 const ChooseArea = ({style_about, style_2}) => {

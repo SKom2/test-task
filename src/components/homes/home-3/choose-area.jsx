@@ -25,7 +25,7 @@ const choose_data_3 = [
   },
   {
     id: 3,
-    title: "Finish Your Course, Get Certificate",
+    title: "Finish Your Id, Get Certificate",
     des: (
       <>
         Holisticly parallel task diverse architectures after top-line
@@ -35,7 +35,7 @@ const choose_data_3 = [
   },
 ];
 
-// choose top data 
+// choose top data
 const choose_top_data = {
     title: "Why You Choose Our E-Pora Online learning",
     des: <> Competently facilitate end-to-end testing procedure before
